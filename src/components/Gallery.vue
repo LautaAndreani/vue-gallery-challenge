@@ -57,11 +57,6 @@ export default defineComponent({
     &:nth-child(4) {
       grid-row-start: span 2;
     }
-    @media screen and (max-width: 768px) {
-      &.gallery_image > * {
-        grid-template-columns: repeat(1, minmax(400px, 1fr));
-      }
-    }
   }
 }
 </style>
