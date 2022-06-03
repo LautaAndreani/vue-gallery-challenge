@@ -6,7 +6,6 @@ export default defineComponent({
   setup() {},
   components: { Cards },
 })
-
 </script>
 
 <template>
@@ -35,8 +34,8 @@ export default defineComponent({
   .container_subtitle {
     margin-top: 0.5rem;
     font-weight: 600;
-    color: var(--subtitle);
     font-size: clamp(1rem, 1vw, 1.5rem);
+    color: var(--subtitle);
   }
 }
 </style>
