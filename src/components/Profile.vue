@@ -6,6 +6,7 @@ export default defineComponent({
   setup() {},
   components: { Cards },
 })
+
 </script>
 
 <template>
